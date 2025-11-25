@@ -1,0 +1,3 @@
+arhum|21|A|university|male
+zaeem|20|B|CA Finalist|male
+warda|20|B|BLB|FEMALE

@@ -7,9 +7,9 @@
         System.out.println("Hello, my name is " + name + ".");
     }
 }
- class Student extends Person {
+ class Students extends Person {
     private int studentId;
-    public Student(String name, int studentId){
+    public Students(String name, int studentId){
         super(name);
         this.studentId = studentId;
     }
@@ -34,7 +34,7 @@ public class inheritancebasic {
     public static void main(String[] args){
         Person person = new Person("Alice");
         person.speak();
-        Person obj = new Student("Bob", 12345);
+        Person obj = new Students("Bob", 12345);
         obj.speak();
         Person obj2 = new Teacher("David", "History");
         obj2.speak();

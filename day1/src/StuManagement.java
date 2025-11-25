@@ -21,7 +21,7 @@ class Student {
         return name;
     }
 
-    public void info() {
+    public void info() {    
         System.out.println("----- Student Info -----");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);

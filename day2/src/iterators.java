@@ -22,7 +22,7 @@ class Namecomp implements  Comparator<Personcomp>{
 }
 
 public class iterators {
-    public static void main(String[] args) {
+    public static void main(String[] argsadasds) {
         ArrayList<Personcomp> people = new ArrayList<>();
         people.add(new Personcomp("Zara", 30));
         people.add(new Personcomp("Alo", 25));
